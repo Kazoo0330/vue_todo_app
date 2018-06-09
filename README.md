@@ -2,7 +2,7 @@
 
 ## todo app using Vue.js
 
-* Ruby version <br />
+* Ruby <br />
 version 2.4.0
 
 
