@@ -23,7 +23,7 @@
       </ul>
     </div>
     <!-- 完了済みタスク表示ボタン -->
-    <div class="btn">Display finished tasks</div>
+    <button class="btn btn-custom" v-on:click="displayFinishedTasks">Display finished tasks</button>
     <!-- 完了済みタスク一覧 -->
     <div id="finished-tasks" class="display_none">
       <ul class="collection">
@@ -91,7 +91,7 @@
         el_clone.getElementsByTagName('label')[0].classList.remove('word-color-black');
         var li = document.querySelector('#finished-tasks > ul > li:first-child');
         document.querySelector('#finished-tasks > ul').insertBefore(el_clone, li);
-      },
+      }
     }
   }
 </script>
