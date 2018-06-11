@@ -1,16 +1,4 @@
 Rails.application.routes.draw do
-  # namespace :api do
-  #   get 'tasks/index'
-  # end
-
-  # namespace :api do
-  #   get 'tasks/create'
-  # end
-
-  # namespace :api do
-  #   get 'tasks/update'
-  # end
-
   root to: 'home#index'
 
   get '/about', to: 'home#index'
